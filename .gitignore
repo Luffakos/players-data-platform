@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+# Μυστικά (ΠΟΤΕ στο git)
+.env
+# Δεδομένα: κρατάμε μόνο το .gitkeep για να υπάρχουν οι φάκελοι
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+# Τοπικές βάσεις
+*.duckdb
